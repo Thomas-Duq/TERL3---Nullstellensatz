@@ -1,0 +1,66 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{tcolorbox}
+\usepackage[francais]{babel}
+\usepackage{amsmath}
+
+\renewcommand\thesection{\Roman{section}}
+
+
+\begin{document}
+
+
+
+\title{\Huge \underline{Nullstellensatz et ensembles algébriques}}
+\author{Justin Carrion, Sean Bontemps, Thomas Duquesnoy}
+\date{}
+
+\maketitle
+
+\newpage
+\tableofcontents
+\newpage
+\section{ Définitions et notations}
+
+\begin{tcolorbox}[colback=green!5!white,colframe=green!42!black,title=Définition : Anneau commutatif]
+
+Soit (A,$+$) un groupe abélien que l'on muni d'une loi de multiplication interne :\\
+
+$$\begin{array}{c|ccccc}
+. & A & \times & A & \to & A \\
+ & (x &, &y) & \mapsto & x.y \\
+\end{array}$$
+\\ vérifiant trois propriétés :
+
+\begin{enumerate}
+\item $\exists$ $ 1_A$ tel que $\forall$ $a \in A,$ $1_A.a = a.1_A = a$
+\item $\forall$ $a,b,c \in A,$ $a.(b+c) = a.b + a.c$
+\item $\forall$ $a,b,c \in A,$ $a.(b.c) = (a.b).c$
+\end{enumerate}
+
+\end{tcolorbox}
+
+\underline{Remarque :} On peut alors démontrer que $\forall$ $a \in A,$ $0.a = a.0 = 0$ et l'unicité de $1_A$.\\
+
+\begin{tcolorbox}[colback=green!5!white,colframe=green!42!black,title=Définition : Corps]
+
+Soit \textit{k} un anneau commutatif,\\
+$(\textit{k},+,.)$ est un corps si tout élément de $\textit{k}$ possède un inverse par la loi multiplicative.
+
+\end{tcolorbox}
+
+
+\newpage
+\section{ Extensions entières d'anneaux}
+\newpage
+\section{ Nullstellensatz}
+\newpage
+\section{ Ensembles algébriques}
+
+
+
+
+
+
+
+\end{document}
